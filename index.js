@@ -4,7 +4,7 @@
 
 function printBadges(employeeArray) {
   for(let i = 0; i < employeeArray.length; i++) {
-    console.log(`Welcome ${employeeArray[i]}!, You are employee #${i+1}.`)
+    console.log(`Welcome ${employeeArray[i]}! You are employee #${i+1}.`)
   }
   return employeeArray
 }
@@ -17,5 +17,5 @@ function tailsNeverFails() {
   while (coinFlip()) {
     streak++
   }
-  return `You got ${streak} in a row!`
+  return `You got ${streak} tails in a row!`
 }
